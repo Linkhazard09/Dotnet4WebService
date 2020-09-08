@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Dotnet4WebService.Classes.Account">
+    <Position X="1.5" Y="0.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAQAAAAAAAAgQAAAACAoAAAAAABAAAAAIA=</HashCode>
+      <FileName>Classes\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dotnet4WebService.Classes.Comment">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAQAAAAAQAAABAAAAAAAAAAAAAAAYI=</HashCode>
+      <FileName>Classes\Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dotnet4WebService.Classes.Feedback">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAIAAAAQAAAAAAAQQAAAAAAAAAAAAAAAAQAAIA=</HashCode>
+      <FileName>Classes\Feedback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dotnet4WebService.Classes.Forum">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAAAAAEAAACAAAQAgAAAAAAQAAAAAAAAAAIA=</HashCode>
+      <FileName>Classes\Forum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dotnet4WebService.Classes.Guide">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEQAQAAAQAAAAAAAAAAAAAEAIA=</HashCode>
+      <FileName>Classes\Guide.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dotnet4WebService.Classes.Photo">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAEAAAKA=</HashCode>
+      <FileName>Classes\Photo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dotnet4WebService.Person">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAAAAAAAQAAQAAAAAIQgAAAAIAAAAAAIA=</HashCode>
+      <FileName>Classes\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dotnet4WebService.CompositeType">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAQAAA=</HashCode>
+      <FileName>IService1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dotnet4WebService.Service1" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAoEAAAAEQAMABAAAAEAAAIgAECQEAKA=</HashCode>
+      <FileName>Service1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Dotnet4WebService.IService1">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAoEAAAAEQAMABAAAAEAAAIgAECQEAKA=</HashCode>
+      <FileName>IService1.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

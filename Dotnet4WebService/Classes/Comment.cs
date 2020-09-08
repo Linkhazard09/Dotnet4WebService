@@ -35,10 +35,6 @@ namespace Dotnet4WebService.Classes
             con.Dispose();
             cmd.Dispose();
             return "Comment Deleted!";
-
-
-
-
         }
 
         public void CommentGetForForum(int Forum_ID, out List<string> Username, out List<string> Date, out List<string> Time, out List<string> Comment_Content)
@@ -65,9 +61,9 @@ namespace Dotnet4WebService.Classes
 
                 }
 
-                con.Close();
-                con.Dispose();
-                cmd.Dispose();
+              con.Close();
+              con.Dispose();
+              cmd.Dispose();
 
             }
                 

@@ -11,7 +11,7 @@ namespace Dotnet4WebService
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
     public class Service1 : IService1
     {
-       public string InsertUser(string Last_Name, string Given_Name, string Middle_Name, string Suffix, string Email_Address, string Username, string Password)
+        public string InsertUser(string Last_Name, string Given_Name, string Middle_Name, string Suffix, string Email_Address, string Username, string Password)
         {
             Person p = new Person();
             Account ac = new Account();
@@ -173,6 +173,7 @@ namespace Dotnet4WebService
 
 
         }
+
         public void GetForumsAll(out List<string> Username, out List<string> Date, out List<string> Headline, out List<string> Time)
         {
             Forum f = new Forum();
@@ -182,7 +183,7 @@ namespace Dotnet4WebService
         
         
         }
-
+        
         public void GetForumContent(string Username, string Headline, out string ForumContent, out string Date,out string Time)
         {
             Forum f = new Forum();
@@ -198,7 +199,6 @@ namespace Dotnet4WebService
 
         }
 
-
         public void GetComments(string Headline, string Poster, out List<string> CommentPoster, out List<string> Date, out List<string> Time, out List<string> Content)
         {
             Forum f = new Forum();
@@ -212,7 +212,6 @@ namespace Dotnet4WebService
 
 
         }
-
 
         public void InsertComment(string Poster,string Commenter, string Headline,string Comment_Content,string Date, string Time)
         {
@@ -231,8 +230,6 @@ namespace Dotnet4WebService
 
         }
 
-
-
         public void InsertPhoto(byte[] Image, string Poster, string Headline)
         {
             Photo p = new Photo();
@@ -248,7 +245,7 @@ namespace Dotnet4WebService
 
         }
 
-       public byte[] GetPhoto(string Poster, string Headline)
+        public byte[] GetPhoto(string Poster, string Headline)
         {
             byte[] Img;
             Photo p = new Photo();
@@ -268,7 +265,7 @@ namespace Dotnet4WebService
 
         }
 
-         public void InsertForum(string Username,string Headline, string Date, string Time,string Forum_Content)
+        public void InsertForum(string Username,string Headline, string Date, string Time,string Forum_Content)
         {
             Account a = new Account();
             Forum f = new Forum();
@@ -283,7 +280,6 @@ namespace Dotnet4WebService
 
 
         }
-
 
         public int GetSpamCounter(string Username)
         {
